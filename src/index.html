@@ -8,6 +8,23 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <div class="wrapper">
+      <form class="form-inline">
+        <div class="form-group">
+          <input
+            type="text"
+            placeholder="Search images.. "
+            class="form-control"
+            name="query"
+            required
+          />
+        </div>
+
+        <button type="submit" class="btn">Search</button>
+      </form>
+      <span class="loader"></span>
+      <ul class="js-list images"></ul>
+    </div>
     <script type="module" src="./main.js"></script>
   </body>
 </html>
