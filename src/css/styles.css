@@ -1,9 +1,3 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
 @import url('./reset.css');
 
 .wrapper {
@@ -42,7 +36,7 @@
   border-radius: 8px;
   padding: 8px 16px;
   width: 91px;
-  height: 40px;
+  height: 42px;
   color: #ffffff;
   background: #4e75ff;
   border: none;
@@ -94,7 +88,6 @@
   justify-content: center;
 }
 .accent {
-  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 2;
